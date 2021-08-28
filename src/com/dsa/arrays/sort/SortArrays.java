@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+package com.dsa.arrays.sort;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -13,9 +13,18 @@ public class SortArrays {
 		intArray[4] = 60;
 		intArray[5] = 70;
 		intArray[6] = 80;
+		
+		int index = 0;
 		for (int i = 0; i < intArray.length; i++) {
-			System.out.println(intArray[i]);
+			
+			if (intArray[i] == 40) {
+				index = i;
+				break;
+			}
+		
 		}
+		System.out.println(index);
+		
 		
 	}
 }
