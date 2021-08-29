@@ -1,5 +1,15 @@
 package com.dsa.arrays.sort;
 
+
+
+/**
+ * @author Anurag Mishra
+ *
+ *In bubble sort algorithm, array is traversed from first element to last element. 
+ *Here, current element is compared with the next element. 
+ *If current element is greater than the next element, it is swapped.
+ */
+
 public class BubbleSort {
 	public static void main(String[] args) {
 		System.out.println("Program for Bubble Sort");
