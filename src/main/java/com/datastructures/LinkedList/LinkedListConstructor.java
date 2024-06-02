@@ -1,4 +1,4 @@
-package com.datastructures;
+package com.datastructures.LinkedList;
 
 public class LinkedListConstructor {
 	public static void main(String[] args) {
@@ -17,7 +17,26 @@ public class LinkedListConstructor {
 		System.out.println("\nLinked List Get:");
 		System.out.println(myLinkedList.get(1).value);
 		
-		 
+		// Set
+		System.out.println("\nLinked List Set:");
+		System.out.println(myLinkedList.set(1,5));
+		myLinkedList.printList();
+		
+		//Insert
+		System.out.println("\nLinked List Insert:");
+		System.out.println(myLinkedList.insert(1,8));
+		myLinkedList.printList();
+		
+		//Remove
+		System.out.println("\nLinked List Remove:");
+		System.out.println(myLinkedList.remove(1));
+		myLinkedList.printList();
+		
+		//Reverse
+		System.out.println("\nLinked List Reverse:");
+		myLinkedList.reverse();
+		myLinkedList.printList();
+		
 		// Prepend
 		myLinkedList.prepend(4);
 		System.out.println("\nLinked List Prepend:");
